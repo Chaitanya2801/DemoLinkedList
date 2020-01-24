@@ -3,6 +3,12 @@ package definition;
 import adt.LinkedListADT;
 
 public class MyLinkedList<E> implements LinkedListADT<E> {
+
+    //create the node class
+    private static class Node<E> {
+
+    }
+
     @Override
     public void add(E item) {
 
